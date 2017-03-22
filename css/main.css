@@ -1,0 +1,665 @@
+img{ width: 100%; 
+height: auto; display: block;
+}
+
+
+/*default webpageat any
+size smaller than 700px*/
+
+h1{font-family: 'Roboto', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+}
+
+p{font-family: 'Josefin Sans', sans-serif;  }
+
+body{
+	background-color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f2eee2;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: ed2584;
+    color: black;
+}
+
+
+.picture{
+    width:100%;
+font-family: 'Roboto', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+}
+
+.main-container{
+	margin: 5%;
+}
+
+.bio{
+    width:100%;
+    height:auto;
+    background-color: #f2eee2;
+    flex-wrap: wrap;
+}
+
+
+.itinerary{
+    width: 100%;
+    height:auto;
+    display: flex;
+    
+}
+
+.big{margin:5%;}
+
+
+.it-text {
+  width:100%;
+  height:auto;
+  background-color:f2eee2;
+
+}
+
+
+.map{
+  display: none;
+}
+
+
+.calender{
+	display:flex;
+	position: relative;
+	flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+
+.box{
+   
+    width:20%;
+    height: 13%;
+    background-color: f2eee2;
+}
+
+.grey{background-color: e2dccc;}
+
+
+
+
+
+
+            @media (min-width: 900px) {
+
+
+
+
+
+
+body{
+    background-color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f2eee2;
+  font-family: 'Shadows Into Light', cursive;
+  font:bold;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color:#ed2584;
+    color: black;
+}
+
+p{
+  font-size: 25px;
+}
+
+h1{font-size: 50px;}
+
+.big{
+  font-size: 35px;
+}
+.picture{
+    width:100%;
+}
+
+.main-container{
+    margin: 10%;
+}
+
+.container12{display: flex;
+justify-content: center;
+height:60%;
+margin-top: -10%;}
+
+.para{width:40%;
+height:;}
+
+.slider{width:50%;
+margin-right:3%;
+height:}
+
+.bio{
+    display: flex;
+    width:100%;
+    height:auto;
+    background-color: transparent   ;
+    flex-wrap: wrap;
+    margin-bottom: 15%;
+}
+
+.bio-text {
+         width:50%;
+        height: auto;
+}
+
+.bio-image-back {
+        width: 50%;
+        height: auto; 
+        background: -webkit-radial-gradient(grey, #f2eee2);
+}
+
+
+.bio-image {
+    width: 90%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    margin-right: 5%;
+    margin-left:   5%;
+    justify-content:   center;
+    
+}
+
+
+.itinerary{
+    width: 100%;
+    height:auto;
+    display: flex;
+    
+}
+
+
+.it-text {
+  width:40%;
+  height:auto;
+  background-color:f2eee2; 
+}
+
+.map {
+  width: 60%
+  height: auto;
+  display: block;
+}
+
+
+.calender{
+    display:flex;
+    position: relative;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+
+.box{
+   
+    width:20%;
+    height: 20%;
+    background-color: f2eee2;
+}
+
+.grey{background-color: e2dccc;}
+
+
+
+.main-daily{
+    padding-bottom: 5%;
+}
+
+
+.daily-1{
+    display:flex;
+    width:90%; margin:auto;
+    margin-top: 5%;
+
+}
+
+.overview{
+  width:60%;
+  margin-right:5%;
+}
+
+.pic{
+  width:50%; 
+
+}
+
+
+.divide{
+  display:flex;
+  height:60%;
+  width:100%;
+  margin-bottom: 5%;
+
+}
+
+.break{
+  width:100%;
+  height:10%;
+  background-color:#f2eee2;
+  margin-top:5%;
+}
+
+
+
+
+
+/*anmation code*/
+
+@import url(//fonts.googleapis.com/css?family=Vibur);
+html,body{
+  height:100%
+}
+
+
+.logo {
+  text-align: center;
+  width: 65%;
+  height: 250px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.logo b{
+  font: 100 15vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+.logo b span{
+  animation: blink linear infinite 2s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: #333;
+  }
+  80% {
+    
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+
+
+@keyframes carousel {
+  0% {
+    left: 0;
+  }
+  11% {
+    left: 0;
+  }
+  12.5% {
+    left: -100%;
+  }
+  23.5% {
+    left: -100%;
+  }
+  25% {
+    left: -200%;
+  }
+  36% {
+    left: -200%;
+  }
+  37.5% {
+    left: -300%;
+  }
+  48.5% {
+    left: -300%;
+  }
+  50% {
+    left: -400%;
+  }
+  61% {
+    left: -400%;
+  }
+  62.5% {
+    left: -300%;
+  }
+  73.5% {
+    left: -300%;
+  }
+  75% {
+    left: -200%;
+  }
+  86% {
+    left: -200%;
+  }
+  87.5% {
+    left: -100%;
+  }
+  98.5% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+  /* daqui: http://csswizardry.com/2011/10/fully-fluid-responsive-css-carousel/ */
+}
+@keyframes go {
+  100% {
+    left: -300%;
+  }
+}
+@keyframes back {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+html, body {
+  height: 100%;
+}
+
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+.carousel .paineis {
+  width: 500%;
+  overflow: hidden;
+  height: 100%;
+  animation: carousel 30s infinite;
+  position: relative;
+}
+.carousel article {
+  float: left;
+  width: 20%;
+}
+.carousel article img {
+  height: 70%;
+  width: 100%;
+}
+.carousel input[type=checkbox]:checked ~ .paineis {
+  animation-play-state: paused;
+  animation: go 10s;
+}
+
+
+
+/*picture page animation*/
+
+@keyframes carousel {
+  0% {
+    left: 0;
+  }
+  11% {
+    left: 0;
+  }
+  12.5% {
+    left: -100%;
+  }
+  23.5% {
+    left: -100%;
+  }
+  25% {
+    left: -200%;
+  }
+  36% {
+    left: -200%;
+  }
+  37.5% {
+    left: -300%;
+  }
+  48.5% {
+    left: -300%;
+  }
+  50% {
+    left: -400%;
+  }
+  61% {
+    left: -400%;
+  }
+  62.5% {
+    left: -300%;
+  }
+  73.5% {
+    left: -300%;
+  }
+  75% {
+    left: -200%;
+  }
+  86% {
+    left: -200%;
+  }
+  87.5% {
+    left: -100%;
+  }
+  98.5% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+  /* daqui: http://csswizardry.com/2011/10/fully-fluid-responsive-css-carousel/ */
+}
+@keyframes go {
+  100% {
+    left: -300%;
+  }
+}
+@keyframes back {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 100%;
+  }
+}
+html, body {
+  height: 100%;
+}
+
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+.carousel .paineis {
+  width: 500%;
+  overflow: hidden;
+  height: 100%;
+  animation: carousel 30s infinite;
+  position: relative;
+}
+.carousel article {
+  float: left;
+  width: 20%;
+}
+.carousel article img {
+  height: 70%;
+  width: 100%;
+}
+.carousel input[type=checkbox]:checked ~ .paineis {
+  animation-play-state: paused;
+  animation: go 10s;
+}
+
+/*code for slider*/
+
+.carousel-container {
+  list-style-type: none;
+  padding: 0;
+  margin: 30px auto;
+  max-width: 100%;
+  width: 1200px;
+  height: 500px;
+  border-radius: 5px;
+  position: relative;
+}
+.carousel-container .arrow {
+  cursor: pointer;
+  background: rgba(0,0,0,0.5);
+  color: rgba(255,255,255,0.5);
+  display: block;
+  width: 50px;
+  font-size: 62px;
+  text-align: center;
+  bottom: 0;
+  top: 0;
+  line-height: 338px;
+  position: absolute;
+  z-index: 9999;
+  padding-bottom: 4px;
+  padding-top: 2px;
+  border-radius: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.carousel-container .arrow.back {
+  left: 0px;
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0.5), transparent);
+  background: linear-gradient(to right, rgba(0,0,0,0.5), transparent);
+}
+.carousel-container .arrow.back::before {
+  content: "\2039";
+}
+.carousel-container .arrow.next {
+  right: 0px;
+  background: -webkit-linear-gradient(right, rgba(0,0,0,0.5), transparent);
+  background: linear-gradient(to left, rgba(0,0,0,0.5), transparent);
+}
+.carousel-container .arrow.next::before {
+  content: "\203a";
+}
+.carousel-container .arrow:hover {
+  color: #fff;
+}
+.carousel-container li:nth-child(1) > .dot {
+  margin-left: 50px;
+}
+.carousel-container .carousel-content {
+  height: 0;
+  overflow: hidden;
+  line-height: 22px;
+  background: #000;
+  position: absolute;
+  top: 0px;
+  border-radius: 5px;
+  box-shadow: 0 5px 5px -5px #333;
+  list-style-type: none;
+  padding: 0;
+}
+.carousel-container .carousel-content img {
+  opacity: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: auto;
+  max-width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+.carousel-container .dot {
+  float: left;
+  cursor: pointer;
+  opacity: 1;
+  width: 12px;
+  height: 12px;
+  background: rgba(255,255,255,0.5);
+  position: relative;
+  margin-top: 56%;
+  border-radius: 50%;
+  z-index: 999;
+  margin-right: 8px;
+  display: block;
+  border: 1px solid #000;
+}
+.carousel-container .dot:hover {
+  background: #fff;
+}
+.carousel-container .carousel-toggle {
+  display: none;
+}
+.carousel-container .carousel-toggle:checked + .dot,
+.carousel-container .carousel-toggle.active + .dot {
+  background: #fff;
+}
+.carousel-container .carousel-toggle:checked ~ .carousel-content,
+.carousel-container .carousel-toggle.active ~ .carousel-content {
+  height: 100%;
+  width: 100%;
+}
+.carousel-container .carousel-toggle:checked ~ .carousel-content img,
+.carousel-container .carousel-toggle.active ~ .carousel-content img {
+  opacity: 1;
+}
+
+
+
